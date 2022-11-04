@@ -1,9 +1,7 @@
-import React from 'react'
+import styled from "styled-components";
 
-const Button.styled = () => {
-  return (
-    <div>Button.styled</div>
-  )
-}
+const Button = styled.button`
+  background-color: hotpink;
+  color: white;
 
-export default Button.styled
+`
