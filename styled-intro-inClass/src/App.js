@@ -1,9 +1,12 @@
-import { Button } from "./components/Button.styled"
+import { Button, TomatoButton } from "./components/Button.styled"
 
 const App = () => {
   return (
     <>
-    <Button>Click</Button>
+    <Button primary>Save</Button>
+    <Button>Clear</Button>
+    <TomatoButton>Send</TomatoButton>
+
     </>
   )
 }
