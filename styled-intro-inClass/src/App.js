@@ -6,6 +6,7 @@ const App = () => {
     <Button primary>Save</Button>
     <Button>Clear</Button>
     <TomatoButton>Send</TomatoButton>
+    <TomatoButton primary>Submit</TomatoButton>
 
     </>
   )

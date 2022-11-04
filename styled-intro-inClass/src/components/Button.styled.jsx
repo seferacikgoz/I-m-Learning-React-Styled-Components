@@ -18,7 +18,9 @@ export const Button = styled.button`
 
 export const TomatoButton = styled(Button)`
    background-color: ${({primary}) => (primary ? "white" : "tomato")};
-  color: ${({primary}) => (primary ? "tomato" : "white")};
+   color: ${({primary}) => (primary ? "tomato" : "white")};
+   border-color: tomato;
+   border: 1px solid tomato;
 
 `
 
