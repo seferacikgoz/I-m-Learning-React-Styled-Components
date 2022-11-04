@@ -4,7 +4,7 @@ import Container from "./components/Container.styled"
 const App = () => {
   return (
     <>
-  <Container>
+  <Container bg="grey">
     <Button primary>Save</Button>
     <Button>Clear</Button>
     <TomatoButton>Send</TomatoButton>
